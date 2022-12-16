@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #272829;
+    margin-bottom: 1rem;
+}
+
+#clock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: sans-serif;
+}
+
+#clock > div {
+    background-color: #272829;
+    color: white;
+    padding: 2rem;
+    margin: 0.5rem;
+    border: 2px solid rgb(92, 86, 86);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #fff inset;
+    text-align: center;
+    width: 150px;
+}
+
+span {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.smallText{
+    font-size: 1.25rem;
+    padding: 10px;
+    text-align: center;
+}
