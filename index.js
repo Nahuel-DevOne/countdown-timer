@@ -41,7 +41,7 @@ function initializeClock(endtime) {
 }
 
 const deadline = new Date(Date.parse(new Date()) + 20 * 24 * 60 * 60 * 1000);
-initializeClock(deadline);
+// initializeClock(deadline);
 
 
 
